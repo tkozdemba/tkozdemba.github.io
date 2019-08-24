@@ -5,13 +5,11 @@ h1 {
 }
 
 body {
-    height: 100%;
-    margin-right: 75px;
-    margin-left: 75px;
-    margin-top: 50px;
-    margin-bottom: 25px;
-    background-image: linear-gradient(white, #A5C9F4);
-    background-repeat: no-repeat
+  background: linear-gradient(white, #A5C9F4) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 img {
